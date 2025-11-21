@@ -45,16 +45,14 @@ CREATE TABLE users (
     username VARCHAR(50) UNIQUE NOT NULL,
     password VARCHAR(255) NOT NULL
 );
-
-Edita el archivo db.py y coloca tu contraseña:
+```
+## Edita el archivo db.py y coloca tu contraseña:
 password="TU_CONTRASEÑA"
 
-Cómo ejecutar el programa
+## Cómo ejecutar el programa
 En la terminal, dentro de la carpeta del proyecto:
 python main.py
-
 Verás un menú:
-
 1. Registrar usuario
 2. Iniciar sesión
 3. Salir
